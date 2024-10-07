@@ -1,0 +1,84 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.pyenv/
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+wheels/
+
+# AI/ML data and model files
+data/
+*.h5
+*.hdf5
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.tflite
+*.onnx
+*.joblib
+*.pickle
+
+# TensorFlow, PyTorch, Keras, or other library logs or checkpoints
+*.tensorboard
+*.event
+*.ckpt.*
+*.pb
+
+# PyTorch Lightning logs and checkpoints
+lightning_logs/
+
+# DVC (Data Version Control) files
+.cache/
+.dvc/
+*.dvc
+
+# Collected training data
+*.csv
+*.tsv
+*.json
+
+# Config files for tools
+*.pylint.d
+*.coverage
+*.coveragerc
+*.hypothesis/
+*.pytest_cache/
+.pytest_cache/
+.tox/
+.nox/
+
+# Debugging and profiling data
+*.prof
+*.log
+*.out
+
+# IDE specific directories (VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook output files
+*.nbconvert/
+*.html
+
+# Miscellaneous
+*.bak
+*.swp
+*.tmp
+*.orig
